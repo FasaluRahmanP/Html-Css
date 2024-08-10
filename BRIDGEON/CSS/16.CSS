@@ -1,0 +1,22 @@
+.container{
+display: grid;
+grid-template-columns: repeat(3,auto);
+grid-template-rows: auto 250px;
+
+/* units:
+1fr                             :fraction
+Min content                     :it will only take min content for the text to display without overflow
+Max content                     :it will only take max content for the text to display
+repet                           :is used for auto*3 
+Minmax                          :it will take a better value from the given min or max value
+coumn gap & row gap & gap       :used ti give gap*/
+
+}
+.item1,.item2,.item3 {
+    padding: 20px;
+    color: white;
+    border: 2px solid;
+}
+.item1{background-color: lightblue;}
+.item2{background-color: green;}
+.item3{background-color: blue;}

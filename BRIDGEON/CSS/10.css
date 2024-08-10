@@ -1,0 +1,10 @@
+h1[class*="-"]{
+    color: darkcyan;
+}
+h1[class$="12"]{
+    color: red;
+}
+h1[class^="sec"]
+{
+    background-color: lightblue;
+}

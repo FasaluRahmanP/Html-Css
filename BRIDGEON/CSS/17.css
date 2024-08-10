@@ -1,0 +1,26 @@
+img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* transition-timing-functio:
+    linear
+    ease-in
+    ease out*/
+    
+}
+.tr:hover{
+    transform: rotate(360deg);
+}
+.tr{
+    transition: transform 5s;
+    transition-timing-function: ease;
+}
+.delay:hover{
+    transform: rotate(180deg);
+}
+.delay{
+    transition: transform 5s;
+    transition-delay: 4s;
+}

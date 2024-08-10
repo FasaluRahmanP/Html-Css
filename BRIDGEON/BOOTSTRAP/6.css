@@ -1,0 +1,29 @@
+/* <!-- m:margin class
+mt:margin-top 
+mb:margin-bottom 
+ms:margin-left
+me:margin-right 
+mx:margin-left& right
+my:margin-top & bottom
+
+p:padding class
+pt:padding-top 
+pb:padding-bottom
+ps:padding-left
+pe:padding-right 
+px:padding-left& right
+py:padding-top & bottom
+
+size:0-5
+mt-5:margin-top-5 
+p-4 padding-4 --> */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+}
+span{
+    background-color: rgb(236, 112, 112);
+    font-size: 30px;
+}

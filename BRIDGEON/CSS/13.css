@@ -1,0 +1,23 @@
+:root{
+    --bg--color:grey;
+}
+.h1{
+    color: red;
+    background-color: var(--bg--color);
+}
+.h2{
+    color:yellow;
+    background-color: var(--bg--color);
+}
+.h3{
+    color:green;
+    background-color:  var(--bg--color);
+}
+.h4{
+    color: purple;
+    background-color: var(--bg--color);
+}
+.h5{
+    color: violet;
+    background-color: var(--bg--color);
+}

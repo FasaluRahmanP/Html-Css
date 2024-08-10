@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+    //   function add(a, b) {
+    //     return a + b;
+    //   }
+    //   console.log(add(9, 1));
+
+    // function check(num){
+    //     if(num%2===0){
+    //         console.log("even")
+    //     }else{
+    //         console.log("odd")
+    //     }
+    // }
+    // check(4);
+
+    // function max(a,b,c,...z){
+    //     return Math.max(a,b,c,...z)
+    // }
+    // console.log(max(3,5,6,9))
+
+    // let oj={
+    //     name:{name},
+    //     age:20,
+    //     domain:"mern",
+    //     place:"malappuram",
+    //     fnn:function fn(name){
+    //         return ("Hey"+name);
+    //     }
+        
+    // }
+    // console.log(fnn("fasalu"))
+
+    // let greet=function(){
+    //   console.log("hello")
+    // }
+    // greet();
+
+    // let arr5=[1,2,3,4,5,6];
+    // let odd=()=>arr5.filter(a=>a%2!=0)
+    // console.log(odd())
+
+    // let nm=(name)=>{console.log(`hello ${name}`)}
+    // nm(("fasalu"))
+
+  //   let arr1=[23,34,-2,48,26,28,29,89,38,19,40,50,57,64,29];
+  //   let fltr=arr1.filter(arr1=>arr1%2!=0);
+  //   console.log(fltr)
+  //   let below=fltr.filter(fltr=>fltr<50);
+  //   console.log(below)
+  //   let total=below.reduce((a,b)=>(a+b))
+  //  console.log(total)
+
+  const array=[{
+    name:"Adnan",
+    age:20,
+    mark:45
+  },
+  {
+    name:"amal",
+    age:21,
+    mark:60
+  },
+  {
+    name:"irfan",
+    age:25,
+    mark:80
+  }]
+
+// let one=array.forEach((item)=>{console.log(item.name)})
+
+let sum=0
+let one=array.forEach((item)=>{sum=sum+item.mark})
+console.log(sum)
+      
+    </script>
+  </body>
+</html>

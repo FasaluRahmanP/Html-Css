@@ -1,0 +1,21 @@
+p::first-line{
+    color: red;
+    font-size: 20px;
+}
+.fle::first-letter{color: blue;
+font-size: 40px;}
+.b::before{
+    content:"HI";
+    color: darkblue;
+    font-size: 20px;
+    font-style:italic;
+}
+.a::after{
+    content:"HI";
+    color: darkblue;
+    font-size: 20px;
+    font-style:italic;
+}
+.s::selection{
+    background-color: yellow;
+}

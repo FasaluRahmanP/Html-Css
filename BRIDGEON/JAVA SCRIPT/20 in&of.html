@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// forloop
+        let cars=["BMW","BENZ","AUDI"];
+        for(let i=0;i<cars.length;i++){
+            console.log(cars[i]);
+        }
+
+// for/in loop
+// (iterates over all enumerable string properties of an object 
+// (ignoring properties keyed by symbols), including inherited enumerable properties.)
+let person={name:"fasalu",age:20};
+for(let x in person){
+    console.log(x);
+}
+
+// for/of loop
+let fruits=["mangoe","apple","lemon"];
+for(let y of fruits){
+console.log(y);
+}
+let num=["10","20","30"];
+for(let y of num){
+console.log(y*10);
+}
+
+    </script>
+    
+</body>
+</html>

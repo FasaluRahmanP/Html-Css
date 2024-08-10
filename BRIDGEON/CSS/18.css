@@ -1,0 +1,14 @@
+div{
+    height: 200px;
+    margin: auto;
+    width: 200px;
+    background-color: lightslategray;
+
+    /* transform: translate(20px,100px); used to move it position */
+    /* transform: rotate(30deg); used to rotate */
+    /* transform: scale(2,2); used to change size according to orginal size */
+    /* transform: scaleX(10); used to change width only */
+    /* transform: scaleX(10); used to change height only */
+    transform: skew(10deg,5deg)
+
+}

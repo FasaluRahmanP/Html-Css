@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+.balance{
+    border-radius: 10px;
+    height: 25px;
+    border-style: none; color: white;
+    background-color: #06A86D;
+}
+.depsoit{
+    border-radius: 10px;
+    height: 25px;width: 100px;
+    border-style: none; color: white;
+    background-color: #0A66C2;
+}
+.withdraw{
+    border-radius: 10px;
+    height: 25px;width: 100px;
+    border-style: none; color: white;
+    background-color: #0A66C2;
+}
+h1{
+    text-align: center;
+    color: #0A66C2;
+}
+div{
+   position: relative;
+   left: 550px;
+   top: 100px;
+}
+
+</style>
+
+<body>
+    <h1>BANK BALANCE CHECKING</h1>
+<form><div>
+    <input type="text" id="Deposit" placeholder=""Required >
+    <input type="button" class="depsoit" onclick="d1()" value="Deposit">
+    <br><br>
+    <input type="text" id="wd" placeholder=""required>
+    <input type="button" class="withdraw" onclick="w1()" value="Withdraw">
+    <br><br>
+    <input type="button" class="balance" onclick="b1()" value="Show Balance">
+    <h2 id="ba"></h2>
+</form></div>
+
+<script>
+        var dep=0;
+        var withd=0;
+        var bal=0;
+        function d1(){
+            dep=parseInt(document.getElementById("Deposit").value);
+            bal=bal+dep;
+            alert(dep+" Deposited Successfully");
+        }
+        function w1(){
+            withd=parseInt(document.getElementById("wd").value);
+           if(dep<withd){
+            alert("Insufficient Balance");
+        }
+        else{
+            bal=bal-withd;
+            alert(withd+" is withdrawed Successfully");
+        }
+    }
+    function b1(){
+        a=document.getElementById("ba");
+        a.innerHTML="Avail Bal:"+bal+"/-";
+    }
+</script>
+  
+    
+</body>
+</html>

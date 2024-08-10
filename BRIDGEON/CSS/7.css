@@ -1,0 +1,20 @@
+.hover:hover{
+    color: red;
+    font-size: 40px;
+    cursor: wait;
+}
+.active:active{
+    color: cornflowerblue;
+    font-size: 40px;
+    font-style: italic;
+}
+input:focus{
+background-color: gold;
+border: 5px solid;
+}
+a:link{
+    color: yellow;
+}
+a:visited{
+    color: red;
+}

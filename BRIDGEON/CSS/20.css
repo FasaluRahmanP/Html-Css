@@ -1,0 +1,14 @@
+.section-1{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    text-align: left;
+}
+@media screen and (max-width:400px){
+    .section-1{
+        background-color: red,;
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+    }
+}

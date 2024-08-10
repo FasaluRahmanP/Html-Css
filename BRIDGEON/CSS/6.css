@@ -1,0 +1,15 @@
+li{
+    display: inline;
+    padding: 10px;
+    background-color: lightskyblue;
+}
+img {
+    /* heading is inline element but we change it into block */
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+h2{
+    display: none;
+}
+/* if we give display none it will not show in webpage */

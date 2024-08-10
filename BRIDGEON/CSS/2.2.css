@@ -1,0 +1,16 @@
+/* class and id selector */
+#head1{
+    color: tomato;
+}
+.head2{
+    text-align: center;
+}
+/* attribute selector used to select by using attributes  they are selected using "[]" */
+a[href]{
+    color: red;
+    font-weight: bold;
+}
+a[target="_blank"]
+{
+    color: blue;
+}

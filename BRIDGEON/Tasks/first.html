@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let getscore=[
+        {name:"Henry",score:59},
+        {name:"jack",score:41},
+        {name:"maria",score:88},]
+    let res=getscore.reduce((a,b)=>a+b.score,0)
+    console.log(res);
+
+    let str="mom";
+    let rev="";
+    let len=str.length;
+    for(let i=len-1;i>=0;i--)
+    {
+        rev+=str[i];
+    }if(rev==str){
+        console.log(str+" : it is a palindromes")
+    }else
+        console.log("it is not palindromes")
+
+
+    let array=[1,2,3,4,5];
+    let result=0;
+    for(let i=0;i<array.length;i++) {
+    if(array[i]%4==0){
+        result+=array[i];
+    }}
+        console.log(result+" : is multiple of four")
+
+
+        // let x=[]
+        // function fn(a,b){
+        //     for(i=1;i<=b;i++){
+        //         return x.push(a*i)
+        //     }
+        //     return x;
+        // }
+        // console.log(fn(7,5))
+    
+        let x = [];
+function fn(a, b) {
+    for (i = 1; i <= b; i++) {
+        return x.push(a * i);
+    }
+    return x;
+}
+console.log(fn(7, 5));
+
+        
+    
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+     /* here we accsess direct h1 tag */
+#container{
+    border: 2px solid;
+}
+#container p{
+    background-color: yellow;
+}
+#container >p{
+    color: red;
+    font-weight: bold;
+}
+#container ~p{
+    background-color: blue;
+}
+#container +p{
+    background-color: blue;
+    font-style: italic;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // foreach 
+        const arr=[
+
+        {
+            name:'fasalu',
+            mark:100,
+            place:'malappuram'
+        },
+        {
+            name:'amal',
+            mark:10,
+            place:'kozhikode'
+        },
+        {
+            name:'adnana',
+            mark:50,
+            place:'chelari'
+        },
+        {
+            name:'irfan',
+            mark:20,
+            place:'wayanad'
+        }
+        ];
+        // .forEach(argument,index) 
+        arr.forEach((item) => {
+            console.log(item.name);
+        });
+
+        // filter 
+
+        var found=arr.filter((item)=>{
+            return item.mark<30;
+        });
+        console.log(found);
+
+        // map (used to create a new array depending on the retun.)
+
+        var newarr=arr.map((item)=>{
+            return item.name;
+        });
+        console.log(newarr);
+
+        // reduce 
+
+        var value=arr.reduce((total,item)=>{
+            return item.name;
+        });
+        console.log(value);
+
+        // arrow function 
+
+        let gm=()=>console.log("GOOD MOARNING");
+        gm();
+
+        let number=(num)=>{if (num>0){
+            console.log("positive number");
+
+        }else{
+            console.log("negative numbre");
+        }}
+        number(-1);
+        
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,18 @@
+/*ELEMENT SELECTOR: We can select element by calling element name */
+p{
+    color: crimson;
+}
+span  {
+    
+    background-color: darkslateblue;
+    color: aliceblue;
+}
+/* UNIVERSAL SELECTOR:we can select all elements form html by using this. */
+*{
+    text-align: center;
+}
+/* now we can select one or more elements together */
+h1,h3{
+    background-color: black;
+}
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // IIFs stands for "Immediately Invoked Function Expressions are a common technique used for 
+        // creating functions that are executed immediately after they are defined. This pattern is often used to 
+        // encapsulate code and create a separate scope.
+        (function() {
+    var x = 10;
+    console.log(x); // Output: 10
+})();
+
+console.log(x); // Error: x is not defined
+
+    </script>
+</body>
+</html>
